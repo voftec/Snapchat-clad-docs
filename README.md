@@ -18,12 +18,8 @@ This repository contains the complete documentation for **CLAD (Closed Loop Agen
 
 ```
 .
-├── CLAD_Documentation.md    # Main documentation file (complete CLAD docs)
-├── clad-images/             # Image assets in original format (webp, png, gif, jpg)
-├── clad-images-png/         # Image assets converted to PNG format
-├── image_data.json          # Metadata about scraped images
-├── scrape_imgs.py           # Image scraping script
-└── scrape_playwright.py     # Playwright-based scraping script
+├── README.md              # This file
+└── CLAD_Documentation.md  # Complete CLAD documentation
 ```
 
 ## Documentation Contents
@@ -59,6 +55,17 @@ The main documentation (`CLAD_Documentation.md`) includes:
    - "Add music and VFX to my Lens"
    - "Add a shader to make this sphere glow like lava"
    - "Add tests to my Lens"
+
+## Images
+
+All images from the original documentation are described inline in `CLAD_Documentation.md` at the exact positions they appear, using this format:
+
+```
+> 📸 IMAGE — <alt text>
+> <what the image shows>
+```
+
+This allows AI agents to fully understand the visual context without downloading binary assets.
 
 ## Community
 

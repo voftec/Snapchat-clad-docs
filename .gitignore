@@ -25,3 +25,11 @@ Thumbs.db
 # Temporary files
 *.tmp
 *.temp
+
+# Image assets (described in markdown)
+clad-images/
+clad-images-png/
+
+# Scraping scripts and data
+scrape_*.py
+image_data.json
